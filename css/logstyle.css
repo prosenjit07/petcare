@@ -1,0 +1,36 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+ }
+ 
+ a{
+    display: inline-block;
+    text-decoration: none;
+ 
+ 
+ }
+ li{
+    list-style: none;
+    padding-right: 10px;
+ }
+ img{
+    vertical-align: middle;
+ }
+ #log{
+    height: 200px;
+    width: 400px;
+    font-weight: 600;
+    padding-top: 16%;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #f54d0afc
+    
+    
+ }
+ #log form{
+    background-color: rgba(0, 0, 0, 0.171);
+ }
+
+ 

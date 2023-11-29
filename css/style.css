@@ -1,0 +1,148 @@
+*{
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+a{
+   display: inline-block;
+   text-decoration: none;
+
+
+}
+li{
+   list-style: none;
+   padding-right: 10px;
+}
+
+img{
+   vertical-align: middle;
+}
+
+h1, h2, h3, li {
+   overflow: hidden;
+}
+/* common css end*/
+/* menu part start*/
+
+#navbar-example2 ul li a{
+   font-weight: 600;
+   font-family: 'Playfair Display', serif;
+   font-size: 16px;
+   color: #f54d0afc
+   
+   ;
+
+}
+#navbar-example2 ul li a:hover{
+   background-color: #f58f0a4e;
+   text-decoration: underline;
+   border-radius: 15%;
+   color: black;
+}
+#navbar-example2 #login_reg button{
+   background-color: #f54d0afc;
+   border: none;
+}
+#navbar-example2 #login_reg button:hover{
+   background-color: #f58f0a4e;
+   text-decoration: underline;
+   border-radius: 15%;
+   color: black;
+}
+
+/* menu part end*/
+/* banner part start*/
+#banner #image{
+   position: relative;
+   
+}
+#banner #text{
+   position: absolute;
+   padding-top: 18%;
+   font-weight: 800;
+   font-family: 'Playfair Display', serif;
+   font-size: 40px;
+   color: #0d0d0cfc;
+   
+}
+
+
+
+/* banner part end*/
+#heading h1{
+   text-align: center;
+   color: #f54d0afc;
+
+}
+
+#cards h3, p {
+   overflow: hidden;
+}
+
+#cards h3 {
+   color:#f54d0afc;
+   font-weight: 800;
+   font-family: 'Playfair Display', serif;
+   font-size: 30px;
+
+}
+#cards p {
+   font-weight: 400;
+   font-family: 'Playfair Display', serif;
+   font-size: 16px;
+}
+#cards {
+   padding-bottom: 20px;
+   padding-left: 80px;
+}
+#cards a{
+   font-weight: 600;
+   font-family: 'Playfair Display', serif;
+   font-size: 16px;
+   color: #f54d0afc;
+   background-color: white;
+}
+#cards a:hover{
+   background-color: #f58f0a4e;
+   text-decoration: underline;
+   border-radius: 40%;
+   color: black;
+}
+
+#blog #vdo{
+   padding: 0px;
+}
+#text1 h2{
+   color:#f54d0afc;
+   font-weight: 800;
+   font-family: 'Playfair Display', serif;
+   font-size: 20px;
+
+
+}
+#text1 p{
+   color:black;
+   font-weight: 800;
+   font-family: 'Playfair Display', serif;
+   font-size: 15px;
+
+
+}
+#text1 ul li{
+   color:black;
+   font-weight: 800;
+   font-family: 'Playfair Display', serif;
+   font-size: 15px;
+
+
+}
+
+.profile-pic {
+   width: 150px;
+   height: 150px;
+   margin: auto;
+   object-fit: cover;
+   border-radius: 50%;
+}
+

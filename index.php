@@ -130,9 +130,18 @@ error_reporting(0);
         <div id="heading" class="row">
           <h1>Our Services</h1>
         </div>
-
-
         <div class="row">
+
+          <div id="cards" class="col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="image/OIP.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3>Pet Hostel</h3>
+                <p class="card-text">This pet hostel booking service allows pet owners to reserve accommodations and find search for nearby hostels.The service ensures a safe, comfortable, and convenient temporary home for pets, offering various facilities such as lodging, grooming, exercise areas and training sessions.</p>
+                <a href="appointments.php?type=Grooming" class="btn btn-primary">Book Appointment</a>
+              </div>
+            </div>
+          </div>
           <div id="cards" class="col-lg-4">
             <div class="card" style="width: 18rem;">
               <img src="image/OIP.jpeg" class="card-img-top" alt="...">
